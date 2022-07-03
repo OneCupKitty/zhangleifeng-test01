@@ -9,13 +9,21 @@ package com.zhangleifeng.controller;
 public class Person {
     private String id;
     private String name;
+    private String loc;
 
     @Override
     public String toString() {
         return "Person{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
+                ", loc='" + loc + '\'' +
                 '}';
+    }
+
+    public Person(String id, String name, String loc) {
+        this.id = id;
+        this.name = name;
+        this.loc = loc;
     }
 
     public String getId() {
