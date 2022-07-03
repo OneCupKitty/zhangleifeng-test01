@@ -10,6 +10,7 @@ public class Person {
     private String id;
     private String name;
     private String loc;
+    private String age;
 
     @Override
     public String toString() {
